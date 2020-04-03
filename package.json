@@ -1,0 +1,32 @@
+{
+  "name": "project_belaz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamshid91/Belaz.git"
+  },
+  "keywords": [
+    "node",
+    "node.js"
+  ],
+  "author": "Jamshid Tojiboyev <jamshid_tojiboyev@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamshid91/Belaz/issues"
+  },
+  "homepage": "https://github.com/Jamshid91/Belaz#readme",
+  "devDependencies": {
+    "jQuery": "^1.7.4",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "font-awesome": "^4.7.0",
+    "google-fonts": "^1.0.0"
+  }
+}

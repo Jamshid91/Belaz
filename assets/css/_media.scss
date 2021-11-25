@@ -246,6 +246,10 @@
       .back-page {
         margin-left: -0.5rem;
       }
+
+      .lits {
+        margin-bottom: 3rem;
+      }
     }
 
     // ===========
@@ -254,6 +258,14 @@
       .text-info-box {
         margin-left: 5rem;
         color: #fff;
+      }
+
+      .box {
+        margin-left: -6rem;
+      }
+
+      img {
+        margin-top: 4rem;
       }
     }
 
@@ -264,6 +276,51 @@
       .phone-num {
         padding-top: 2.2rem;
         font-size: 0.85em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 376px) {
+  body {
+    .question {
+      .text-info-box {
+        margin-left: 5rem;
+        color: #fff;
+      }
+
+      .box {
+        margin-left: -6rem;
+      }
+
+      .box1 {
+        margin-top: 1rem;
+      }
+
+      .box2 {
+        margin-top: 3rem;
+      }
+
+      .box3 {
+        margin-top: 5rem;
+      }
+
+      .box4 {
+        margin-top: 8rem;
+      }
+
+      .box5 {
+        margin-top: 10rem;
+      }
+
+      img {
+        margin-top: 4rem;
+      }
+    }
+
+    .warranty {
+      .back-page {
+        margin-left: -3.3rem;
       }
     }
   }

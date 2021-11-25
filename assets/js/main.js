@@ -1,5 +1,13 @@
 $(function () {
-  $('.orginal').hide().show(2000).setInterval(() => {
+  $('.orginal').hide(0).show(4000);
 
-  }, 2000);
-})
+  $('.receive input').on('click', function () {
+    fideOut(0).fideIn(2000)
+
+  });
+
+  // $('.receive h1').each(function () {
+  //   alert($(this).html())
+  // })
+
+});

@@ -1,16 +1,13 @@
-let textList = document.querySelector('.text-info');
-let textBox = document.querySelector('.hidden');
-let span = document.querySelector('.close');
+let questions = document.querySelectorAll('.question-info');
+// let textBox = document.querySelectorAll('.hidden');
+let spans = document.querySelectorAll('.close');
 
-console.log(span)
+function onQuestionHandler(e) {
+  e.preventDefault();
+  this.parentElement.nextElementSibling.classList.toggle('hidden');
+  console.dir(this)
+};
 
-textList.addEventListener('mouseenter', toggle);
-span.addEventListener('click', close);
-
-function toggle() {
-  textBox.style.display = 'block'
-}
-
-function close() {
-  textBox.style.display = 'none'
-}
+questions.forEach((question) => {
+  question.addEventListener('click', onQuestionHandler)
+});

@@ -223,24 +223,26 @@ html {
           padding-bottom: 4.5rem; }
         html body .question ol .hidden {
           display: none; }
-        html body .question ol span {
-          position: absolute;
-          font-size: 1.5em;
-          top: 2rem;
-          right: 1rem;
-          cursor: pointer; }
-        html body .question ol .box1,
-        html body .question ol .box2 {
+        html body .question ol .box {
           width: 33rem;
           height: 16rem;
-          position: absolute;
-          top: 3rem;
-          left: 5rem;
           background-color: #fff;
           -webkit-clip-path: polygon(12% 0, 16% 8%, 100% 8%, 100% 100%, 0 100%, 0 8%, 8% 8%);
                   clip-path: polygon(12% 0, 16% 8%, 100% 8%, 100% 100%, 0 100%, 0 8%, 8% 8%);
           color: #000;
-          padding: 2.2rem; }
+          padding: 2.2rem;
+          position: absolute;
+          left: 5rem; }
+        html body .question ol .box1 {
+          top: 2rem; }
+        html body .question ol .box2 {
+          top: 9rem; }
+        html body .question ol .box3 {
+          top: 16rem; }
+        html body .question ol .box4 {
+          top: 23rem; }
+        html body .question ol .box5 {
+          top: 30rem; }
       html body .question a {
         color: #fff;
         padding-left: 2.5rem;
@@ -381,6 +383,10 @@ html {
       html body footer span {
         font-size: 1.15em;
         font-weight: 700; }
+      html body footer .text-p {
+        padding-top: 1.4rem; }
+      html body footer .logo-last {
+        margin-left: 1rem; }
 
 @media screen and (max-width: 992px) {
   body .receive .text-sup h1 {
@@ -474,9 +480,35 @@ html {
       margin-top: 2rem; }
   body .warranty .back-page {
     margin-left: -0.5rem; }
+  body .warranty .lits {
+    margin-bottom: 3rem; }
   body .question .text-info-box {
     margin-left: 5rem;
     color: #fff; }
+  body .question .box {
+    margin-left: -6rem; }
+  body .question img {
+    margin-top: 4rem; }
   body footer .phone-num {
     padding-top: 2.2rem;
     font-size: 0.85em; } }
+@media screen and (max-width: 376px) {
+  body .question .text-info-box {
+    margin-left: 5rem;
+    color: #fff; }
+  body .question .box {
+    margin-left: -6rem; }
+  body .question .box1 {
+    margin-top: 1rem; }
+  body .question .box2 {
+    margin-top: 3rem; }
+  body .question .box3 {
+    margin-top: 5rem; }
+  body .question .box4 {
+    margin-top: 8rem; }
+  body .question .box5 {
+    margin-top: 10rem; }
+  body .question img {
+    margin-top: 4rem; }
+  body .warranty .back-page {
+    margin-left: -3.3rem; } }
